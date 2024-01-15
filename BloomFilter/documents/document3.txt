@@ -1,0 +1,40 @@
+Skip to main content
+  MOODLE
+Home
+Dashboard
+My courses
+
+10672333/2492
+Activity-3: Bloom Filter and Spark
+Edit submission
+
+ASSIGNMENT
+Activity-3: Bloom Filter and Spark
+Completion requirements
+Opened: Tuesday, 21 November 2023, 12:00 AM
+Due: Sunday, 26 November 2023, 12:00 AM
+Follow these steps to check wether your collection of documents contains a certain word or not using Bloom Filter:
+
+Create a Spark Application that read a number of documents and map them into a list of words as RDDs
+Using "breeze.util" in "breeze.util" package to add the content of the previous RDD to a BloomFilter Object. Hint: have a look at this: BloomFilter Demo
+Calculate the error rate empirically by comparing the results retrieved from BloomFilter and the actual content of the RDD.
+
+
+Add submission
+Online text
+Rich text editor
+
+
+
+File submissions
+
+File submissions
+Files
+Add...
+You can drag and drop files here to add them.
+Maximum file size: 100 MB, maximum number of files: 20
+
+
+
+.
+Privacy Policy

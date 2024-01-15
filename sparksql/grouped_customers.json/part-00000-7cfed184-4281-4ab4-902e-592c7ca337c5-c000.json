@@ -1,0 +1,562 @@
+{"customer_city":"Hanover","count":9}
+{"customer_city":"Caguas","count":4584}
+{"customer_city":"Corona","count":25}
+{"customer_city":"Tempe","count":35}
+{"customer_city":"Bowling Green","count":8}
+{"customer_city":"Springfield","count":3}
+{"customer_city":"Lawrenceville","count":12}
+{"customer_city":"North Las Vegas","count":12}
+{"customer_city":"Palatine","count":8}
+{"customer_city":"Phoenix","count":64}
+{"customer_city":"Plainfield","count":13}
+{"customer_city":"Bountiful","count":8}
+{"customer_city":"Hollywood","count":24}
+{"customer_city":"Waukegan","count":9}
+{"customer_city":"Pittsburg","count":4}
+{"customer_city":"Levittown","count":8}
+{"customer_city":"Mount Prospect","count":7}
+{"customer_city":"Toa Alta","count":3}
+{"customer_city":"Brighton","count":13}
+{"customer_city":"Toms River","count":11}
+{"customer_city":"Lindenhurst","count":7}
+{"customer_city":"Compton","count":19}
+{"customer_city":"Conway","count":5}
+{"customer_city":"Palo Alto","count":6}
+{"customer_city":"Westland","count":10}
+{"customer_city":"Bay Shore","count":5}
+{"customer_city":"Rego Park","count":12}
+{"customer_city":"Marion","count":3}
+{"customer_city":"Hanford","count":9}
+{"customer_city":"Allentown","count":3}
+{"customer_city":"Woodbridge","count":14}
+{"customer_city":"Algonquin","count":8}
+{"customer_city":"Anaheim","count":19}
+{"customer_city":"Huntington Station","count":8}
+{"customer_city":"West Chester","count":19}
+{"customer_city":"Folsom","count":6}
+{"customer_city":"Saint Charles","count":10}
+{"customer_city":"Orange Park","count":10}
+{"customer_city":"Taunton","count":4}
+{"customer_city":"Everett","count":7}
+{"customer_city":"Napa","count":8}
+{"customer_city":"Greensboro","count":20}
+{"customer_city":"Jackson Heights","count":6}
+{"customer_city":"Weslaco","count":12}
+{"customer_city":"Aguadilla","count":7}
+{"customer_city":"Temecula","count":6}
+{"customer_city":"Lenoir","count":12}
+{"customer_city":"Dallas","count":75}
+{"customer_city":"Reseda","count":6}
+{"customer_city":"Encinitas","count":17}
+{"customer_city":"Oceanside","count":24}
+{"customer_city":"Cupertino","count":9}
+{"customer_city":"Laredo","count":23}
+{"customer_city":"Oakland","count":3}
+{"customer_city":"Kailua","count":6}
+{"customer_city":"Manchester","count":5}
+{"customer_city":"Scottsdale","count":7}
+{"customer_city":"Davis","count":9}
+{"customer_city":"Fontana","count":18}
+{"customer_city":"Mission Viejo","count":26}
+{"customer_city":"Beloit","count":10}
+{"customer_city":"Edison","count":5}
+{"customer_city":"Manati","count":11}
+{"customer_city":"Madera","count":5}
+{"customer_city":"Zanesville","count":8}
+{"customer_city":"Opa Locka","count":11}
+{"customer_city":"San Antonio","count":53}
+{"customer_city":"Bend","count":16}
+{"customer_city":"Elk Grove","count":10}
+{"customer_city":"Bakersfield","count":41}
+{"customer_city":"Ventura","count":11}
+{"customer_city":"Lynnwood","count":7}
+{"customer_city":"Chula Vista","count":11}
+{"customer_city":"Raleigh","count":18}
+{"customer_city":"Philadelphia","count":105}
+{"customer_city":"Parkville","count":5}
+{"customer_city":"Louisville","count":12}
+{"customer_city":"Dayton","count":5}
+{"customer_city":"Dearborn","count":16}
+{"customer_city":"Hamtramck","count":11}
+{"customer_city":"Fullerton","count":13}
+{"customer_city":"Fayetteville","count":11}
+{"customer_city":"Valrico","count":7}
+{"customer_city":"Sandusky","count":8}
+{"customer_city":"Juana Diaz","count":7}
+{"customer_city":"Hampton","count":11}
+{"customer_city":"Los Angeles","count":224}
+{"customer_city":"Escondido","count":29}
+{"customer_city":"Campbell","count":9}
+{"customer_city":"Tracy","count":6}
+{"customer_city":"Fairfield","count":15}
+{"customer_city":"Trujillo Alto","count":9}
+{"customer_city":"Waipahu","count":10}
+{"customer_city":"Elyria","count":13}
+{"customer_city":"Flushing","count":9}
+{"customer_city":"Hesperia","count":7}
+{"customer_city":"Bellingham","count":4}
+{"customer_city":"Florissant","count":22}
+{"customer_city":"Chandler","count":18}
+{"customer_city":"Cayey","count":4}
+{"customer_city":"Visalia","count":9}
+{"customer_city":"Sacramento","count":23}
+{"customer_city":"Bensalem","count":7}
+{"customer_city":"Pico Rivera","count":9}
+{"customer_city":"Mililani","count":13}
+{"customer_city":"Brentwood","count":4}
+{"customer_city":"Indianapolis","count":13}
+{"customer_city":"Clarksville","count":5}
+{"customer_city":"Strongsville","count":16}
+{"customer_city":"Bellflower","count":10}
+{"customer_city":"New Braunfels","count":8}
+{"customer_city":"Webster","count":10}
+{"customer_city":"Pomona","count":17}
+{"customer_city":"Bayonne","count":6}
+{"customer_city":"Cleveland","count":47}
+{"customer_city":"San Diego","count":104}
+{"customer_city":"San Francisco","count":28}
+{"customer_city":"Porterville","count":10}
+{"customer_city":"Rancho Cucamonga","count":5}
+{"customer_city":"Lake Forest","count":12}
+{"customer_city":"Nashville","count":4}
+{"customer_city":"Bell Gardens","count":10}
+{"customer_city":"Union","count":7}
+{"customer_city":"Chesapeake","count":11}
+{"customer_city":"Pharr","count":9}
+{"customer_city":"Findlay","count":8}
+{"customer_city":"East Brunswick","count":8}
+{"customer_city":"Medford","count":6}
+{"customer_city":"Santa Cruz","count":11}
+{"customer_city":"Detroit","count":64}
+{"customer_city":"Howell","count":6}
+{"customer_city":"Portland","count":31}
+{"customer_city":"Morrisville","count":6}
+{"customer_city":"Greensburg","count":5}
+{"customer_city":"Albany","count":6}
+{"customer_city":"Lynwood","count":5}
+{"customer_city":"Walnut","count":12}
+{"customer_city":"Hacienda Heights","count":4}
+{"customer_city":"San Sebastian","count":13}
+{"customer_city":"Sumner","count":3}
+{"customer_city":"Princeton","count":13}
+{"customer_city":"Lutz","count":9}
+{"customer_city":"Aurora","count":64}
+{"customer_city":"Broken Arrow","count":11}
+{"customer_city":"Moreno Valley","count":21}
+{"customer_city":"Tallahassee","count":14}
+{"customer_city":"Edinburg","count":3}
+{"customer_city":"Mcallen","count":5}
+{"customer_city":"Mount Pleasant","count":11}
+{"customer_city":"Santa Maria","count":4}
+{"customer_city":"Montebello","count":6}
+{"customer_city":"Lombard","count":6}
+{"customer_city":"Des Plaines","count":6}
+{"customer_city":"Lynn","count":8}
+{"customer_city":"La Puente","count":5}
+{"customer_city":"El Cajon","count":13}
+{"customer_city":"Garden Grove","count":20}
+{"customer_city":"Santa Clara","count":11}
+{"customer_city":"Birmingham","count":3}
+{"customer_city":"Clovis","count":8}
+{"customer_city":"Plano","count":16}
+{"customer_city":"Englewood","count":6}
+{"customer_city":"Daly City","count":16}
+{"customer_city":"Hempstead","count":3}
+{"customer_city":"Paramount","count":7}
+{"customer_city":"Carolina","count":12}
+{"customer_city":"Pompano Beach","count":38}
+{"customer_city":"Milpitas","count":9}
+{"customer_city":"Chapel Hill","count":8}
+{"customer_city":"Wyandotte","count":12}
+{"customer_city":"Frankfort","count":10}
+{"customer_city":"Clementon","count":7}
+{"customer_city":"Roseburg","count":7}
+{"customer_city":"Columbus","count":42}
+{"customer_city":"Arecibo","count":9}
+{"customer_city":"Ewa Beach","count":8}
+{"customer_city":"Chino Hills","count":5}
+{"customer_city":"Harvey","count":6}
+{"customer_city":"Vista","count":15}
+{"customer_city":"Antioch","count":21}
+{"customer_city":"Hayward","count":21}
+{"customer_city":"Memphis","count":48}
+{"customer_city":"Oak Lawn","count":8}
+{"customer_city":"Ann Arbor","count":10}
+{"customer_city":"Huntington Beach","count":13}
+{"customer_city":"Brockton","count":4}
+{"customer_city":"Freehold","count":2}
+{"customer_city":"Austin","count":25}
+{"customer_city":"Berwyn","count":5}
+{"customer_city":"Massillon","count":8}
+{"customer_city":"Astoria","count":6}
+{"customer_city":"Arlington Heights","count":3}
+{"customer_city":"Washington","count":47}
+{"customer_city":"Madison","count":8}
+{"customer_city":"South Richmond Hill","count":10}
+{"customer_city":"Van Nuys","count":14}
+{"customer_city":"Panorama City","count":9}
+{"customer_city":"North Tonawanda","count":8}
+{"customer_city":"El Paso","count":42}
+{"customer_city":"Fountain Valley","count":7}
+{"customer_city":"Hawthorne","count":8}
+{"customer_city":"Apex","count":13}
+{"customer_city":"Milwaukee","count":14}
+{"customer_city":"Winter Park","count":9}
+{"customer_city":"Carson","count":10}
+{"customer_city":"Fargo","count":6}
+{"customer_city":"Highland","count":10}
+{"customer_city":"Pasadena","count":7}
+{"customer_city":"Vega Baja","count":9}
+{"customer_city":"Rock Hill","count":4}
+{"customer_city":"Spring","count":3}
+{"customer_city":"Fort Washington","count":7}
+{"customer_city":"Garland","count":6}
+{"customer_city":"Smyrna","count":7}
+{"customer_city":"Mentor","count":8}
+{"customer_city":"Mesquite","count":10}
+{"customer_city":"Glen Burnie","count":6}
+{"customer_city":"Bartlett","count":3}
+{"customer_city":"Rowland Heights","count":13}
+{"customer_city":"Bolingbrook","count":6}
+{"customer_city":"New Castle","count":4}
+{"customer_city":"Warren","count":7}
+{"customer_city":"Plymouth","count":10}
+{"customer_city":"Chicago","count":274}
+{"customer_city":"Wayne","count":11}
+{"customer_city":"Apopka","count":8}
+{"customer_city":"New Brunswick","count":9}
+{"customer_city":"Canovanas","count":3}
+{"customer_city":"Tampa","count":23}
+{"customer_city":"El Centro","count":9}
+{"customer_city":"Silver Spring","count":12}
+{"customer_city":"Westerville","count":5}
+{"customer_city":"Martinez","count":7}
+{"customer_city":"Glendale","count":17}
+{"customer_city":"Crystal Lake","count":8}
+{"customer_city":"Merced","count":5}
+{"customer_city":"Germantown","count":7}
+{"customer_city":"Yuma","count":7}
+{"customer_city":"Livermore","count":9}
+{"customer_city":"Newark","count":45}
+{"customer_city":"Pacoima","count":11}
+{"customer_city":"National City","count":2}
+{"customer_city":"Middletown","count":18}
+{"customer_city":"Doylestown","count":6}
+{"customer_city":"Fort Lauderdale","count":41}
+{"customer_city":"Tustin","count":10}
+{"customer_city":"Broomfield","count":4}
+{"customer_city":"Lawton","count":8}
+{"customer_city":"Stafford","count":7}
+{"customer_city":"Lakewood","count":19}
+{"customer_city":"Cicero","count":6}
+{"customer_city":"Lompoc","count":7}
+{"customer_city":"Ridgewood","count":7}
+{"customer_city":"Longview","count":7}
+{"customer_city":"Lancaster","count":52}
+{"customer_city":"Stockbridge","count":11}
+{"customer_city":"San Pedro","count":5}
+{"customer_city":"Mission","count":11}
+{"customer_city":"Longmont","count":9}
+{"customer_city":"Irving","count":15}
+{"customer_city":"Crown Point","count":5}
+{"customer_city":"Powder Springs","count":9}
+{"customer_city":"Cypress","count":9}
+{"customer_city":"Indio","count":7}
+{"customer_city":"West Jordan","count":9}
+{"customer_city":"Citrus Heights","count":7}
+{"customer_city":"San Benito","count":13}
+{"customer_city":"Wilmington","count":3}
+{"customer_city":"Lilburn","count":5}
+{"customer_city":"Redmond","count":6}
+{"customer_city":"Amarillo","count":19}
+{"customer_city":"Round Rock","count":7}
+{"customer_city":"Spring Valley","count":16}
+{"customer_city":"Granada Hills","count":9}
+{"customer_city":"Greeley","count":16}
+{"customer_city":"Wheaton","count":9}
+{"customer_city":"Poway","count":6}
+{"customer_city":"West New York","count":7}
+{"customer_city":"Ithaca","count":6}
+{"customer_city":"Irwin","count":12}
+{"customer_city":"Wheeling","count":7}
+{"customer_city":"Victorville","count":10}
+{"customer_city":"Upland","count":6}
+{"customer_city":"Carrollton","count":12}
+{"customer_city":"Rosemead","count":6}
+{"customer_city":"West Haven","count":5}
+{"customer_city":"Westminster","count":7}
+{"customer_city":"Ponce","count":2}
+{"customer_city":"Opelousas","count":15}
+{"customer_city":"Dundalk","count":8}
+{"customer_city":"North Hills","count":10}
+{"customer_city":"Grand Prairie","count":4}
+{"customer_city":"Bayamon","count":19}
+{"customer_city":"Carol Stream","count":11}
+{"customer_city":"Carlisle","count":14}
+{"customer_city":"Santa Fe","count":7}
+{"customer_city":"Salem","count":16}
+{"customer_city":"Santa Ana","count":36}
+{"customer_city":"Atlanta","count":25}
+{"customer_city":"Fond Du Lac","count":10}
+{"customer_city":"Reno","count":4}
+{"customer_city":"New Orleans","count":29}
+{"customer_city":"College Station","count":13}
+{"customer_city":"Metairie","count":7}
+{"customer_city":"Arlington","count":10}
+{"customer_city":"Lithonia","count":4}
+{"customer_city":"Fresno","count":29}
+{"customer_city":"Jackson","count":10}
+{"customer_city":"Murfreesboro","count":10}
+{"customer_city":"Las Vegas","count":81}
+{"customer_city":"Ontario","count":29}
+{"customer_city":"Perth Amboy","count":7}
+{"customer_city":"Guayama","count":10}
+{"customer_city":"Kenner","count":5}
+{"customer_city":"Brooklyn","count":225}
+{"customer_city":"Greenville","count":16}
+{"customer_city":"Loveland","count":14}
+{"customer_city":"Laguna Hills","count":4}
+{"customer_city":"Chillicothe","count":6}
+{"customer_city":"Honolulu","count":44}
+{"customer_city":"Sun Valley","count":6}
+{"customer_city":"Medina","count":5}
+{"customer_city":"Rochester","count":11}
+{"customer_city":"Grove City","count":5}
+{"customer_city":"Seattle","count":14}
+{"customer_city":"Reynoldsburg","count":8}
+{"customer_city":"Yonkers","count":9}
+{"customer_city":"Bristol","count":5}
+{"customer_city":"South San Francisco","count":7}
+{"customer_city":"Irvington","count":6}
+{"customer_city":"Stamford","count":8}
+{"customer_city":"Ypsilanti","count":12}
+{"customer_city":"Kent","count":13}
+{"customer_city":"Jersey City","count":17}
+{"customer_city":"Long Beach","count":36}
+{"customer_city":"Tinley Park","count":7}
+{"customer_city":"Watsonville","count":10}
+{"customer_city":"Lodi","count":4}
+{"customer_city":"Littleton","count":8}
+{"customer_city":"Simi Valley","count":20}
+{"customer_city":"Moline","count":12}
+{"customer_city":"Sunnyvale","count":17}
+{"customer_city":"Harlingen","count":10}
+{"customer_city":"Santee","count":5}
+{"customer_city":"Bloomfield","count":6}
+{"customer_city":"Staten Island","count":15}
+{"customer_city":"Woodside","count":5}
+{"customer_city":"Milford","count":14}
+{"customer_city":"Wichita","count":12}
+{"customer_city":"Danbury","count":6}
+{"customer_city":"Taylor","count":6}
+{"customer_city":"Beaverton","count":10}
+{"customer_city":"Enfield","count":13}
+{"customer_city":"Sugar Land","count":17}
+{"customer_city":"Costa Mesa","count":14}
+{"customer_city":"San Juan","count":22}
+{"customer_city":"Oxnard","count":19}
+{"customer_city":"Vallejo","count":6}
+{"customer_city":"Passaic","count":7}
+{"customer_city":"Bridgeton","count":12}
+{"customer_city":"Norfolk","count":9}
+{"customer_city":"Wyoming","count":12}
+{"customer_city":"Cerritos","count":10}
+{"customer_city":"Annapolis","count":7}
+{"customer_city":"Hyattsville","count":14}
+{"customer_city":"Ballwin","count":10}
+{"customer_city":"Stone Mountain","count":7}
+{"customer_city":"Augusta","count":15}
+{"customer_city":"Dubuque","count":5}
+{"customer_city":"Potomac","count":11}
+{"customer_city":"La Mesa","count":9}
+{"customer_city":"Hickory","count":10}
+{"customer_city":"Baldwin Park","count":5}
+{"customer_city":"Chino","count":8}
+{"customer_city":"New Haven","count":8}
+{"customer_city":"Winnetka","count":13}
+{"customer_city":"Norcross","count":8}
+{"customer_city":"Salinas","count":12}
+{"customer_city":"Goleta","count":5}
+{"customer_city":"Endicott","count":14}
+{"customer_city":"Hollister","count":7}
+{"customer_city":"Laguna Niguel","count":7}
+{"customer_city":"Gaithersburg","count":9}
+{"customer_city":"Muskegon","count":8}
+{"customer_city":"Lewisville","count":5}
+{"customer_city":"Spokane","count":5}
+{"customer_city":"O Fallon","count":5}
+{"customer_city":"Troy","count":18}
+{"customer_city":"Henderson","count":6}
+{"customer_city":"Hialeah","count":33}
+{"customer_city":"Jamaica","count":16}
+{"customer_city":"Diamond Bar","count":9}
+{"customer_city":"Pittsfield","count":7}
+{"customer_city":"Colton","count":4}
+{"customer_city":"Quincy","count":15}
+{"customer_city":"Saint Louis","count":31}
+{"customer_city":"San Jose","count":71}
+{"customer_city":"Rancho Cordova","count":5}
+{"customer_city":"San Pablo","count":9}
+{"customer_city":"Hamilton","count":15}
+{"customer_city":"Rialto","count":3}
+{"customer_city":"North Bergen","count":5}
+{"customer_city":"Colorado Springs","count":16}
+{"customer_city":"Rome","count":11}
+{"customer_city":"Mayaguez","count":9}
+{"customer_city":"Burnsville","count":8}
+{"customer_city":"Saint Paul","count":31}
+{"customer_city":"Methuen","count":10}
+{"customer_city":"South Ozone Park","count":12}
+{"customer_city":"Richardson","count":8}
+{"customer_city":"Morristown","count":10}
+{"customer_city":"Stockton","count":17}
+{"customer_city":"Highland Park","count":8}
+{"customer_city":"Pekin","count":12}
+{"customer_city":"Billings","count":7}
+{"customer_city":"La Mirada","count":10}
+{"customer_city":"Peoria","count":8}
+{"customer_city":"Tucson","count":43}
+{"customer_city":"Yauco","count":8}
+{"customer_city":"Cumberland","count":11}
+{"customer_city":"Riverside","count":27}
+{"customer_city":"Canyon Country","count":7}
+{"customer_city":"Duluth","count":7}
+{"customer_city":"Canton","count":9}
+{"customer_city":"Gilroy","count":7}
+{"customer_city":"Houston","count":91}
+{"customer_city":"Alhambra","count":8}
+{"customer_city":"Piscataway","count":10}
+{"customer_city":"Woonsocket","count":6}
+{"customer_city":"Gardena","count":12}
+{"customer_city":"Lockport","count":13}
+{"customer_city":"Hendersonville","count":7}
+{"customer_city":"Denton","count":7}
+{"customer_city":"Carlsbad","count":12}
+{"customer_city":"South El Monte","count":8}
+{"customer_city":"Glenview","count":7}
+{"customer_city":"Jacksonville","count":22}
+{"customer_city":"Revere","count":4}
+{"customer_city":"La Habra","count":6}
+{"customer_city":"Mchenry","count":7}
+{"customer_city":"Fremont","count":22}
+{"customer_city":"Wilkes Barre","count":7}
+{"customer_city":"Granite City","count":6}
+{"customer_city":"San Marcos","count":18}
+{"customer_city":"Jonesboro","count":7}
+{"customer_city":"Forest Hills","count":6}
+{"customer_city":"Morganton","count":5}
+{"customer_city":"Chambersburg","count":4}
+{"customer_city":"Michigan City","count":6}
+{"customer_city":"New Albany","count":7}
+{"customer_city":"Virginia Beach","count":50}
+{"customer_city":"Saint Peters","count":6}
+{"customer_city":"Salina","count":10}
+{"customer_city":"Tonawanda","count":10}
+{"customer_city":"Cordova","count":8}
+{"customer_city":"Kaneohe","count":6}
+{"customer_city":"Alpharetta","count":7}
+{"customer_city":"Elgin","count":19}
+{"customer_city":"Oviedo","count":4}
+{"customer_city":"Goose Creek","count":9}
+{"customer_city":"Brownsville","count":16}
+{"customer_city":"Knoxville","count":6}
+{"customer_city":"Buffalo","count":25}
+{"customer_city":"Palmdale","count":7}
+{"customer_city":"Freeport","count":13}
+{"customer_city":"West Covina","count":16}
+{"customer_city":"Brandon","count":10}
+{"customer_city":"Union City","count":15}
+{"customer_city":"Eagle Pass","count":6}
+{"customer_city":"Baytown","count":7}
+{"customer_city":"Albuquerque","count":40}
+{"customer_city":"Cincinnati","count":8}
+{"customer_city":"Placentia","count":6}
+{"customer_city":"Far Rockaway","count":9}
+{"customer_city":"Clearfield","count":9}
+{"customer_city":"Peabody","count":6}
+{"customer_city":"Sheboygan","count":9}
+{"customer_city":"Martinsburg","count":9}
+{"customer_city":"Hagerstown","count":11}
+{"customer_city":"Norwalk","count":4}
+{"customer_city":"Rio Grande","count":8}
+{"customer_city":"Vacaville","count":5}
+{"customer_city":"San Bernardino","count":20}
+{"customer_city":"New Bedford","count":9}
+{"customer_city":"Joliet","count":11}
+{"customer_city":"East Lansing","count":10}
+{"customer_city":"Toa Baja","count":4}
+{"customer_city":"Dorchester Center","count":11}
+{"customer_city":"Ogden","count":10}
+{"customer_city":"Mechanicsburg","count":8}
+{"customer_city":"Rio Rancho","count":7}
+{"customer_city":"Miami","count":87}
+{"customer_city":"Humacao","count":10}
+{"customer_city":"Chicago Heights","count":3}
+{"customer_city":"Williamsport","count":4}
+{"customer_city":"Gwynn Oak","count":2}
+{"customer_city":"Salt Lake City","count":26}
+{"customer_city":"Guaynabo","count":8}
+{"customer_city":"Alameda","count":8}
+{"customer_city":"Baltimore","count":38}
+{"customer_city":"Tulare","count":6}
+{"customer_city":"Del Rio","count":11}
+{"customer_city":"Henrico","count":8}
+{"customer_city":"Richmond","count":27}
+{"customer_city":"Columbia","count":22}
+{"customer_city":"Buena Park","count":5}
+{"customer_city":"Summerville","count":7}
+{"customer_city":"Mesa","count":14}
+{"customer_city":"North Richland Hills","count":12}
+{"customer_city":"Blacksburg","count":4}
+{"customer_city":"Malden","count":4}
+{"customer_city":"Cary","count":6}
+{"customer_city":"La Crosse","count":13}
+{"customer_city":"Orlando","count":30}
+{"customer_city":"West Lafayette","count":6}
+{"customer_city":"San Ramon","count":7}
+{"customer_city":"El Monte","count":10}
+{"customer_city":"New York","count":120}
+{"customer_city":"Marrero","count":7}
+{"customer_city":"Decatur","count":7}
+{"customer_city":"West Orange","count":9}
+{"customer_city":"Newburgh","count":12}
+{"customer_city":"Massapequa","count":7}
+{"customer_city":"South Gate","count":6}
+{"customer_city":"York","count":18}
+{"customer_city":"Lawrence","count":10}
+{"customer_city":"Roswell","count":18}
+{"customer_city":"Sanford","count":8}
+{"customer_city":"Annandale","count":8}
+{"customer_city":"Charlotte","count":9}
+{"customer_city":"Olathe","count":7}
+{"customer_city":"Azusa","count":9}
+{"customer_city":"Bronx","count":105}
+{"customer_city":"Carmichael","count":8}
+{"customer_city":"Marietta","count":21}
+{"customer_city":"Painesville","count":6}
+{"customer_city":"Huntington Park","count":4}
+{"customer_city":"Roseville","count":6}
+{"customer_city":"Eugene","count":21}
+{"customer_city":"Meridian","count":9}
+{"customer_city":"Bismarck","count":8}
+{"customer_city":"North Hollywood","count":14}
+{"customer_city":"Catonsville","count":9}
+{"customer_city":"Katy","count":10}
+{"customer_city":"Federal Way","count":6}
+{"customer_city":"Holland","count":6}
+{"customer_city":"Sylmar","count":6}
+{"customer_city":"Fort Worth","count":27}
+{"customer_city":"Denver","count":19}
+{"customer_city":"Las Cruces","count":10}
+{"customer_city":"Oregon City","count":12}
+{"customer_city":"Canoga Park","count":5}
+{"customer_city":"Lansdale","count":8}
+{"customer_city":"Normal","count":5}
+{"customer_city":"Modesto","count":23}
+{"customer_city":"Saginaw","count":10}
+{"customer_city":"Pawtucket","count":9}
+{"customer_city":"Hilliard","count":8}
+{"customer_city":"Provo","count":7}
+{"customer_city":"Asheboro","count":8}
+{"customer_city":"Elmhurst","count":21}
+{"customer_city":"Douglasville","count":6}

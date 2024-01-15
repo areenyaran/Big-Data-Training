@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Real-time Tweet Dashboard</title>
+    <!-- Include Bootstrap and Plotly libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body class="bg-light col-12">
+<div class="container mt-5 mb-5">
+    <div class="text-center">
+        <h1>Real-time Tweet Dashboard</h1>
+        <div class="mt-4" id="topUsersPieChart"></div>
+        <div class="mt-4" id="tweetsDistributionChart"></div>
+        <form action="/filtered_tweets_distribution_chart" class="mt-4" id="filterForm" method="post">
+            <div class="row">
+                <div class="col-2">
+                    <label class="form-label" for="user_query">Enter User Query:</label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" id="user_query" name="user_query" required type="text">
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-primary" onclick="filterTweets()" type="button">Filter Tweets</button>
+                </div>
+            </div>
+        </form>
+        <button class="btn btn-primary mt-4" onclick="fetchData()">Refresh</button>
+        <h3 class="fw-light fst-italic mt-4">Areen A. Shamasni - 12112181</h3>
+    </div>
+</div>
+<script>
+    // Function to update charts with new data
+    function updateCharts(topUsersPieChart, tweetsDistributionChart) {
+        const topUsersPieChartData = JSON.parse(topUsersPieChart);
+        const tweetsDistributionChartData = JSON.parse(tweetsDistributionChart);
+
+        // Creating new Plotly charts with updated data
+        Plotly.newPlot('topUsersPieChart', topUsersPieChartData);
+        Plotly.newPlot('tweetsDistributionChart', tweetsDistributionChartData);
+    }
+
+    // Function to fetch data from the server and update charts
+    function fetchData() {
+        fetch('/top_users_pie_chart')
+            .then(response => response.json())
+            .then(topUsersPieChart => {
+                fetch('/tweets_distribution_chart')
+                    .then(response => response.json())
+                    .then(tweetsDistributionChart => {
+                        // Updating charts with fetched data
+                        updateCharts(topUsersPieChart, tweetsDistributionChart);
+                    });
+            });
+    }
+
+    // Function to filter tweets based on user input
+    function filterTweets() {
+        const userQuery = document.getElementById('user_query').value;
+        const formData = new FormData();
+        formData.append('user_query', userQuery);
+
+        fetch('/filtered_tweets_distribution_chart', {
+            method: 'POST',
+            body: formData,
+        })
+            .then(response => response.json())
+            .then(filteredTweetsChart => {
+                fetch('/top_users_pie_chart')
+                    .then(response => response.json())
+                    .then(topUsersPieChart => {
+                        updateCharts(topUsersPieChart, filteredTweetsChart);
+                    });
+            });
+    }
+
+    // Update charts every 10 seconds
+    setInterval(fetchData, 10000);
+    // Initial fetch of data when the page loads
+    fetchData();
+</script>
+</body>
+</html>

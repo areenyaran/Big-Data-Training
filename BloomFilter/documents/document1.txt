@@ -1,0 +1,249 @@
+breeze
+breeze
+breeze.collection.compat
+breeze.collection.immutable
+breeze.collection.mutable
+breeze.compat
+breeze.features
+breeze.generic
+breeze.integrate
+breeze.integrate.quasimontecarlo
+breeze.interpolation
+breeze.io
+breeze.linalg
+breeze.linalg.operators
+breeze.linalg.support
+breeze.math
+breeze.numerics
+breeze.numerics.constants
+breeze.numerics.financial
+breeze.numerics.units
+breeze.optimize
+breeze.optimize.flow
+breeze.optimize.linear
+breeze.optimize.proximal
+breeze.polynomial
+breeze.signal
+breeze.signal.support
+breeze.stats
+breeze.stats.distributions
+breeze.stats.hypothesis
+breeze.stats.mcmc
+breeze.stats.random
+breeze.stats.regression
+breeze.storage
+breeze.util
+ArrayBuilder
+ArrayBuilder
+ArrayUtil
+AwesomeBitSet
+AwesomeScalaBitSet
+BloomFilter
+BloomFilter
+CachedHashCode
+CompositeIndex
+DenseIntIndex
+DoubleImplicits
+EitherIndex
+Encoder
+Encoder
+EnumerationIndex
+FileUtil
+HashIndex
+HashIndex
+Implicits
+Index
+Index
+Interner
+Interner
+Isomorphism
+Isomorphism
+IsomorphismIndex
+IteratorImplicits
+Iterators
+JavaArrayOps
+LazyLogger
+Lens
+Lens
+MutableIndex
+Opt
+OptionIndex
+PairIndex
+RangeUtils
+ReflectionUtil
+SeqExtras
+SerializableLogging
+Sorting
+Terminal
+TopK
+TopK
+TopKImplicits
+TopKIterable
+TopKIterator
+UpdateSerializedObjects
+WideningConversion
+WideningConversion
+partition
+quickSelect
+quickSelectImpl
+breeze/breeze.util
+breeze.util
+package breeze.util
+
+Filter all members
+Type membersValue membersImplicits
+Type members
+Classlikes
+sealed abstract classArrayBuilder	[@specialized T] extends ReusableBuilder[T, Array[T]] with Serializable
+A builder class for arrays.
+
+objectArrayBuilder	
+A companion object for array builders.
+
+objectArrayUtil	
+final classAwesomeBitSet	(val bs: BitSet) extends AnyVal
+final classAwesomeScalaBitSet	(val bs: BitSet) extends AnyVal
+@SerialVersionUID(1L)
+class BloomFilter[@specialized(Int, Long) T](val numBuckets: Int, val numHashFunctions: Int, val bits: BitSet) extends T => Boolean with Serializable
+A BloomFilter is an approximate set that sometimes gives false positives. That is, if bf(x) returns true, then it might have been added to the set. If it returns false, then it definitely has not. This is useful for caching and approximation.
+
+Companion
+object
+objectBloomFilter	
+traitCachedHashCode	
+Mixin for case classes that compute their hashcode once, and then cache it. Only good if the case class is immutable, and its contents are also immutable "all the way down".
+
+final classCompositeIndex	[U](indices: Index[_ <: U]*) extends Index[(Int, U)]
+An Index over N kinds of things. A little type unsafe.
+
+classDenseIntIndex	(beg: Int, end: Int) extends Index[Int]
+For use when we need an index, but we already have (densely packed) positive ints and don't want hash overhead.
+
+traitDoubleImplicits	
+classEitherIndex	[L, R](left: Index[L], right: Index[R]) extends Index[Either[L, R]]
+An Index over two kinds of things. Layout is straightforward: The first left.size entries are from the left index, while the next right.size are from the right index. Values are wrapped in Left/Right
+
+traitEncoder	[T]
+For encoding counters as vectors and decoding vectors back to counters
+
+objectEncoder	
+objectEnumerationIndex	
+final classFileUtil	(val sc: StringContext) extends AnyVal
+classHashIndex	[T] extends MutableIndex[T] with Serializable
+Class that builds a 1-to-1 mapping between Ints and T's, which is very useful for efficiency concerns.
+
+objectHashIndex	 extends SerializableLogging
+objectImplicits	 extends DoubleImplicits with IteratorImplicits
+Stores various implicits, also available by importing breeze.util._
+
+traitIndex	[T] extends Iterable[T] with T => Int with Serializable
+Trait that marks an O(1) bidirectional map between Ints (increasing from 0) and T's. This class is used, for example, to efficiently build unique vector space mappings for strings. The methods in this trait do not mutate the underlying index. Use either a MutableIndex or one of the companion object constructor methods to build an index.
+
+objectIndex	
+Utilities for manipulating and creating Index objects.
+
+classInterner	[T] extends T => T with Serializable
+Class that mimics Java's string interner, but for anything. Threadsafe.
+
+objectInterner	
+traitIsomorphism	[T, U] extends Serializable
+An Isomorphism is defined by a reversible transformation between two types. useful when one set of implicits is easily defined for some type, but not for some other type
+
+objectIsomorphism	
+classIsomorphismIndex	[T, U](val innerIndex: Index[T])(implicit iso: Isomorphism[T, U]) extends Index[U] with Serializable
+Maps an index of type T to an index of type U using an isomorphism implicit
+
+traitIteratorImplicits	
+objectIterators	
+Utilities and implicits for iterators. Nothing major.
+
+objectJavaArrayOps	
+This utility class facilitates transparent access of breeze data objects from plain Java without Scala-related Generic complications.
+
+classLazyLogger	(val logger: Logger) extends Serializable
+A logger that only evaluates parameters lazily if the corresponding log level is enabled.
+
+traitLens	[T, U]
+A Lens defines a functional way of handling getters/setters. They're useful for extending transformations on a part of a case class to the whole case class by updating that one component
+
+objectLens	
+traitMutableIndex	[T] extends Index[T]
+An Index that contains an extra method: <em>index</em> that adds the given element (if necessary), returning its (possibly new) position in the index.
+
+abstract classOpt	
+Base class for all option case classes in breeze
+
+classOptionIndex	[T](inner: Index[T]) extends Index[Option[T]]
+Lifts an index of T into an index of Option[T] . The last element is None. Everything else is as you expect.
+
+classPairIndex	[T, U](tIndex: Index[T], uIndex: Index[U]) extends Index[(T, U)]
+An index over pairs from a pair of indexes
+
+objectRangeUtils	
+objectReflectionUtil	
+classSeqExtras	[T](s: Seq[T])
+traitSerializableLogging	 extends Serializable
+Stupid Typesafe logging lib trait isn't serializable. This is just a better version.
+
+objectSorting	
+objectTerminal	
+classTopK	[T](k: Int)(implicit ord: Ordering[T]) extends Iterable[T]
+A Top-K queue keeps a list of the top K elements seen so far as ordered by the given comparator.
+
+objectTopK	
+objectTopKImplicits	
+classTopKIterable	[T](val self: Iterable[T])
+A rich iterable extension that adds the topk method.
+
+classTopKIterator	[T](val self: Iterator[T])
+objectUpdateSerializedObjects	
+Class that reads in objects serialized with breeze.util.writeObject, ignoring their serialversionuids, and then writes them to the same file.
+
+traitWideningConversion	[@specialized(Int, Float, Short, Byte) F, @specialized(Int, Long, Double) T]
+Sort of like Conversion but intended to be restricted to core numeric types
+
+objectWideningConversion	
+objectpartition	 extends UFunc
+Creates a copy of the array with its elements rearranged in such a way that the value of the element in kth position is in the position it would be in a sorted array. All elements smaller than the kth element are moved to the start of the array, all greater are moved to the end. Equal elements will be on the immeditate left or right. The ordering of the elements in the two partitions is undefined.
+
+objectquickSelect	 extends UFunc
+objectquickSelectImpl	 extends UFunc
+Types
+typeTODO	 = Nothing
+Similar to ???, but for types
+
+Value members
+Concrete methods
+defCALLER	(nth: Int): String
+Computes the source file location of the nth parent. 0 is equivalent to LOCATION
+
+defLOCATION	: String
+Computes the current source file and line number.
+
+defdeserializeFromBytes	[T](bytes: Array[Byte]): T
+defmemoryString	: String
+Returns a string with info about the available and used space.
+
+defnonstupidObjectInputStream	(stream: InputStream, ignoreSerialVersionUID: Boolean): ObjectInputStream
+For reasons that are best described as asinine, ObjectInputStream does not take into account Thread.currentThread.getContextClassLoader. This fixes that.
+
+defreadObject	[T](loc: File): T
+Deserializes an object using java serialization
+
+defreadObject	[T](loc: File, ignoreSerialVersionUID: Boolean): T
+Deserializes an object using java serialization
+
+defserializeToBytes	[T](obj: T): Array[Byte]
+deftrace	[T](a: T): T
+prints a and returns it.
+
+defwriteObject	[T](out: File, parser: T): Unit
+Serializes an object using java serialization
+
+Implicits
+Implicits
+implicit def_bitsetcbf	[U]: BuildFrom[BitSet, U, Set[U]]
+implicit defarraySeqExtras	[T](s: Array[T]): SeqExtras[T]
+ Back to top
+Generated by 
+scaladoc

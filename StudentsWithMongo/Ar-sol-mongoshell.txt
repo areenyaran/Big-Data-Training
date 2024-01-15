@@ -1,0 +1,102 @@
+//created StudentData DataBase then the followig commands in mongo shell.
+
+use StudentData
+db.createCollection('students')
+
+//Part 1: Importing Student Data
+
+//I have parse the csv file into json in scala by "toJSON" then 
+//we can import it by mongoimport tool with this command , the file should be without [] and , between objects , to be like mongo schema standard
+mongoimport --db StudentData --collection students --file C:\Users\Think\OneDrive\Documents\BigData\students.json
+// or by my second solution inserting in scala
+
+//part 2: Retrieving Students by Course
+
+db.students.createIndex({ "CourseIDs": 1 })
+
+db.students.find({"CourseIDs":101})
+
+//or by user input , there is no read line as i searched but this hack work
+
+print("Enter a course ID to retrieve students enrolled in that course: ");
+courseid = parseInt(passwordPrompt());
+
+print(" searching for students enrolled in " + courseid + " course....");
+
+//db.students.find({ "CourseIDs":courseid});
+
+var result = db.students.find({
+ "CourseIDs":courseid},
+ { "FirstName": 1, "LastName": 1, "_id": 0 });
+ 
+var x = 1;
+while (result.hasNext()) {
+    var student = result.next();
+    print(`Student ${x}: ${student.FirstName} ${student.LastName}`);
+    x++;
+}
+
+// or
+
+print("Enter a course ID to retrieve students enrolled in that course: ");
+var courseid = parseInt(passwordPrompt());
+
+db.students.aggregate([
+  {
+    $match: {
+      CourseIDs: courseid 
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      FirstName: 1,
+      LastName: 1
+    }
+  },
+]);
+
+
+//Part 3: Retrieving Students by GPA
+
+db.students.createIndex({ "GPA": 1 })
+
+
+print("Enter a GPA value to retrieve students with a GPA greater than that value: ");
+var gpa = parseFloat(passwordPrompt());
+
+print("Searching for students with a GPA greater than " + gpa + "....");
+
+var result = db.students.find({
+ "GPA": { $gt: gpa } },
+ { "FirstName": 1, "LastName": 1, "GPA": 1, "_id": 0 })
+
+var x = 1;
+while (result.hasNext()) {
+    var student = result.next();
+    print(`Student ${x}: ${student.FirstName} ${student.LastName} (GPA: ${student.GPA})`);
+    x++;
+}
+
+// or
+
+print("Enter a GPA value to retrieve students with a GPA greater than that value: ");
+var gpa = parseFloat(passwordPrompt());
+
+db.students.aggregate([
+  {
+    $match: {
+      GPA: { $gt: gpa }
+    }
+  },
+  {
+    $project: {
+      _id: 0, 
+      FirstName: 1,
+      LastName: 1,
+      GPA: 1
+    }
+  },
+]);
+
+//https://www.mongodb.com/docs/manual/reference/method/passwordPrompt/
